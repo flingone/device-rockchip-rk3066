@@ -8,7 +8,7 @@ TARGET_BOARD_PLATFORM := rk3066
 TARGET_BOARD_PLATFORM_GPU := mali400
 
 #if board only 512M ddr, set true, esle false
-BOARD_USE_LOW_MEM := true
+BOARD_USE_LOW_MEM := false
 
 # google apps
 BUILD_WITH_GOOGLE_MARKET ?= false
